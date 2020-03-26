@@ -70,6 +70,8 @@ const styles = StyleSheet.create({
         fontSize:'16px',
         paddingLeft:12,
         border: '1px solid black',
+        borderWidth:2,
+        borderColor:'black',
         borderRadius:10,
         alignSelf:'center'
     },
