@@ -162,23 +162,23 @@ const styles = StyleSheet.create({
         marginBottom:10,
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize:'18px'
+        fontSize:18
     },
     countdown: {
         margin: '12px',
-        fontSize:'90px',
-        fontWeight:700,
+        fontSize:90,
+        fontWeight:'700',
         textAlignVertical:'center'
     },
     redText:{
         color:'red',
-        fontSize:'18px',
-        fontWeight:700,
+        fontSize:18,
+        fontWeight:'700',
     },
     normalText:{
         color:'grey',
-        fontSize:'18px',
-        fontWeight:700,
+        fontSize:18,
+        fontWeight:'700',
     },
     pauseIcon: {
         margin: '6px',

@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`countdowninput renders correctly with countdown-0 and start-false 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 50,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#0066FF",
+        "borderColor": "#0066FF",
+        "borderRadius": 10,
+        "borderWidth": 2,
+        "color": "white",
+        "fontSize": 30,
+        "fontWeight": "700",
+        "paddingBottom": 15,
+        "paddingLeft": 50,
+        "paddingRight": 50,
+        "paddingTop": 15,
+        "width": "100%",
+      }
+    }
+  >
+    Countdown
+  </Text>
+  <br />
+  <br />
+  <Text>
+    <TextInput
+      allowFontScaling={true}
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Enter minutes"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "black",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "fontSize": 16,
+          "height": 50,
+          "paddingLeft": 12,
+          "width": "150px",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={0}
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#C0C0C0",
+          "borderColor": "grey",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "color": "grey",
+          "elevation": 2,
+          "height": 50,
+          "marginLeft": 10,
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "rgba(0,0,0, .4)",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 1,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        START
+      </Text>
+    </View>
+  </Text>
+</View>
+`;
+
+exports[`countdowninput renders correctly with countdown-1 and start-false 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 50,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#0066FF",
+        "borderColor": "#0066FF",
+        "borderRadius": 10,
+        "borderWidth": 2,
+        "color": "white",
+        "fontSize": 30,
+        "fontWeight": "700",
+        "paddingBottom": 15,
+        "paddingLeft": 50,
+        "paddingRight": 50,
+        "paddingTop": 15,
+        "width": "100%",
+      }
+    }
+  >
+    Countdown
+  </Text>
+  <br />
+  <br />
+  <Text>
+    <TextInput
+      allowFontScaling={true}
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Enter minutes"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "black",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "fontSize": 16,
+          "height": 50,
+          "paddingLeft": 12,
+          "width": "150px",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={0}
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#C0C0C0",
+          "borderColor": "grey",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "color": "grey",
+          "elevation": 2,
+          "height": 50,
+          "marginLeft": 10,
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "rgba(0,0,0, .4)",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 1,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        START
+      </Text>
+    </View>
+  </Text>
+</View>
+`;
+
+exports[`countdowninput renders correctly with countdown-1 and start-true 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "justifyContent": "center",
+      "marginTop": 50,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#0066FF",
+        "borderColor": "#0066FF",
+        "borderRadius": 10,
+        "borderWidth": 2,
+        "color": "white",
+        "fontSize": 30,
+        "fontWeight": "700",
+        "paddingBottom": 15,
+        "paddingLeft": 50,
+        "paddingRight": 50,
+        "paddingTop": 15,
+        "width": "100%",
+      }
+    }
+  >
+    Countdown
+  </Text>
+  <br />
+  <br />
+  <Text>
+    <TextInput
+      allowFontScaling={true}
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Enter minutes"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "black",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "fontSize": 16,
+          "height": 50,
+          "paddingLeft": 12,
+          "width": "150px",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={0}
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#C0C0C0",
+          "borderColor": "grey",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "color": "grey",
+          "elevation": 2,
+          "height": 50,
+          "marginLeft": 10,
+          "marginTop": 10,
+          "opacity": 1,
+          "paddingBottom": 15,
+          "paddingLeft": 30,
+          "paddingRight": 30,
+          "paddingTop": 15,
+          "shadowColor": "rgba(0,0,0, .4)",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 1,
+          },
+          "shadowOpacity": 1,
+          "shadowRadius": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        START
+      </Text>
+    </View>
+  </Text>
+</View>
+`;

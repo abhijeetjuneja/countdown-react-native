@@ -36,7 +36,7 @@ export default class CountdownInput extends Component {
                     ><Text style={countdown <= 0 ? styles.disabledButtonText : styles.buttonText}>STOP</Text></TouchableOpacity> : 
                     <TouchableOpacity
                         style={countdown <= 0 ? styles.disabledButton : styles.buttonStyle1}
-                        onPress={() => this.props.setStates('start',true)}
+                        onPress={() => {this.props.setStates('start',true)}}
                         disabled={countdown <= 0}
                     ><Text style={countdown <= 0 ? styles.disabledButtonText : styles.buttonText}>START</Text></TouchableOpacity>}</Text>
             </View>
@@ -54,22 +54,22 @@ const styles = StyleSheet.create({
     inputLabel: {
         color:'white',
         backgroundColor:'#0066FF',
-        fontSize:'30px',
+        fontSize:30,
         width:'100%',
         fontWeight:'700',
         paddingLeft:50,
         paddingRight:50,
         paddingTop:15,
         paddingBottom:15,
-        border: '2px solid #0066FF',
+        borderWidth:2,
+        borderColor:'#0066FF',
         borderRadius:10
     },
     textInput: {
         height: 50,
         width: '150px',
-        fontSize:'16px',
+        fontSize:16,
         paddingLeft:12,
-        border: '1px solid black',
         borderWidth:2,
         borderColor:'black',
         borderRadius:10,
@@ -77,12 +77,12 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color:'white',
-        fontSize:'16px',
-        fontWeight:500
+        fontSize:16,
+        fontWeight:'500'
     },
     disabledButtonText: {
         color:'grey',
-        fontSize:'16px',
+        fontSize:16,
         fontWeight:'500',
     },
     disabledButton:{

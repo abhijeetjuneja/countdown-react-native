@@ -32,7 +32,6 @@ export default class CountdownSpeed extends Component {
 
 const styles = StyleSheet.create({
     container:{
-        padding: '100',
         marginTop:50,
         alignItems: 'center',
         justifyContent: 'center',
@@ -91,22 +90,22 @@ const styles = StyleSheet.create({
     },
     buttonText1: {
         color:'black',
-        fontSize:'16px',
-        fontWeight:500,
+        fontSize:16,
+        fontWeight:'500',
         alignContent:'center',
         alignSelf: 'center'
     },
     buttonText2: {
         color:'white',
-        fontSize:'16px',
-        fontWeight:500,
+        fontSize:16,
+        fontWeight:'500',
         alignContent:'center',
         alignSelf: 'center'
     },
     disabledButtonText: {
         color:'grey',
-        fontSize:'16px',
-        fontWeight:500,
+        fontSize:16,
+        fontWeight:'500',
         alignContent:'center',
         alignSelf: 'center'
     },
